@@ -56,6 +56,7 @@
                                 </div>
                             @enderror
                     </div> 
+                    
                     <div class="form-group">
                             <label class="font-weight-bold"> ALAMAT</label>
                             <input type="text" class="form-control @error('alamat') is-invalid @enderror" name="alamat" value="{{ old('alamat', $siswa->alamat) }}" placeholder="Masukkan Alamat Siswa">

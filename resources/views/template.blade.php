@@ -18,39 +18,39 @@ ap/4.5.2/css/bootstrap.min.css">
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
-<a class="navbar-brand" href="#"><font color="white">RPL</font></a>
+<a class="navbar-brand" href="#"><font color="purple">RPL</font></a>
 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 <li class="nav-item active">
-<a class="nav-link" href="{{url('/home')}}"><font color="white">Home</font> <span class="sr-only"></span></a>
+<a class="nav-link" href="{{url('/home')}}"><font color="purple">Home</font> <span class="sr-only"></span></a>
 </li>
 <li class="nav-item">
-<a class="nav-link"  href="{{url('/mapel')}}"><font color="white">Mata Pelajaran</font>
+<a class="nav-link"  href="{{url('/mapel')}}"><font color="purple">Mata Pelajaran</font>
 </a>
 </li>    
 <li class="nav-item">
-<a class="nav-link" href="{{url('/siswa')}}"><font color="white">Siswa</font>
+<a class="nav-link" href="{{url('/siswa')}}"><font color="purple">Siswa</font>
 </a>
 </li> 
 <li class="nav-item">
-<a class="nav-link" href="{{url('/buku')}}"><font color="white">Buku</font>
+<a class="nav-link" href="{{url('/buku')}}"><font color="purple">Buku</font>
 </a>
 </li>                                                        
 
 <li class="nav-item">
 <a class="nav-link disabled" href="#" tabindex="-
-1" aria-disabled="true"><font color="white">Disabled</font></a>
+1" aria-disabled="true"><font color="purple">Disabled</font></a>
 </li>
 <li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-<font color="white"> Dropdown link</font>
+<font color="purple"> Dropdown link</font>
 </a>
 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 <a class="dropdown-item" href="#">register</a>
 <a class="dropdown-item" href="{{url('logout')}}">logout</a>
 <li class="nav-item">
  <a href="{{ route('logout') }}" class="nav-link">
- <font color="white">logout</font></a>
+ <font color="purple">logout</font></a>
 </li>
 
 <a class="dropdown-item" href="{{ url('changepassword') }}">Ganti Password</a>
@@ -84,7 +84,7 @@ tr.min.js"></script>
             <br/>
         </header>
         <footer>
-            <p>copyright rpl 2022</p>
+            <p>copyright rpl 2023</p>
         </footer>
         </div>
 </body>

@@ -44,8 +44,13 @@
                                 </div>
                                 <div class="form-group">
                                 <label class="font-weight-bold"> kelas</label>
-                                <input type="text" class="form-control @error('kelas') is-invalid @enderror" name="kelas"value="{{ old('kelas') }}" placeholder="Masukkan Kelas">
-
+                            
+                                <select class="form-select" aria-label="Default select example" name="kelas">
+                                <option selected></option>
+                                <option value="X">X</option>
+                                <option value="XI">XI</option>
+                                <option value="XII">XII</option>
+                                </selecT>
                                 <!-- error message untuk title -->
                                 @error('kelas')
                                     <div class="alert alert-danger mt-2">
@@ -55,8 +60,18 @@
                                 </div>
                                 <div class="form-group">
                                 <label class="font-weight-bold"> Jurusan</label>
-                                <input type="text" class="form-control @error('jurusan') is-invalid @enderror" name="jurusan"value="{{ old('jurusan') }}" placeholder="Masukkan jurusan">
-
+                                
+                                <select class="form-select" aria-label="Default select example" name="jurusan">
+                                <option selected></option>
+                                <option value="PPLG">PPLG</option>
+                                <option value="AKL">AKL</option>
+                                <option value="PH">PH</option>
+                                <option value="DPIB">DPIB</option>
+                                <option value="PM">PM</option>
+                                <option value="MPLB">MPLB</option>
+                                <option value="JB">JB</option>
+                                <option value="TB">TB</option>
+                                </select>
                                 <!-- error message untuk title -->
                                 @error('jurusan')
                                     <div class="alert alert-danger mt-2">
@@ -64,6 +79,7 @@
                                     </div>
                                     @enderror
                                 </div>
+                                
                                 <div class="form-group">
                                     <label class="font-weight-bold">Alamat</label>
                                     <input type="text" class="form-control

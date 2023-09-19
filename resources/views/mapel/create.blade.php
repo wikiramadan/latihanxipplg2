@@ -11,7 +11,7 @@
                             @csrf
                             <div class="form-group">
                                 <label class="font-weight-bold"> NAMA MATA PELAJARAN</label>
-                                <input type="text" class="form-control @error('nama_mapel') is-invalid @enderror" name="nama_mapel"value="{{ old('nama_mapel') }}" placeholder="Masukkan Nama">
+                                <input type="text" class="form-control @error('nama_mapel') is-invalid @enderror" name="nama_mapel"value="{{ old('nama_mapel') }}" placeholder="Masukkan mata pelajaran">
 
                                 <!-- error message untuk title -->
                                 @error('nama_mapel')

@@ -5,6 +5,7 @@ use App\Http\Controllers\ContenController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MapelController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\BukuController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +19,7 @@ use App\Http\Controllers\UserController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
 });
 
 Route::get('/login',[LoginController::class, 'index'])->name('login')->middleware('guest');
@@ -32,4 +33,4 @@ Route::get('changepassword',[UserController::class,'ShowChangePasswordForm'])->m
 Route::post('changepassword',[UserController::class,'changepassword'])->Name('changepassword')->middleware('auth');
 
 Route::resource('siswa', SiswaController::class);
-Route::resource('buku', bukuController::class);
+Route::resource('buku', BukuController::class);
